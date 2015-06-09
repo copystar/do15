@@ -17,14 +17,15 @@ Its confusing to describe a place using minutes and seconds so let's describe th
 You could make a map using Google Maps of all the TPL Library branches: http://www.torontopubliclibrary.ca/hours-locations/  
 
 ## How could I make this map?
-First will need the locations of all the branches of the Toronto Public Library. These are provided by the City of Toronto from their Open Data Catalogue at: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a7ae0ea14b661310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD  
+First you will need the locations of all the branches of the Toronto Public Library. These are provided by the City of Toronto from their Open Data Catalogue at: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a7ae0ea14b661310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD  
   
 Please note that the data in the catalogue is out of date. The site provides the location of Library Branch Locations (http://www.torontopubliclibrary.ca/data/library-data.kml) and Future Library Branch Locations (http://www.torontopubliclibrary.ca/data/new-library-data.kml) but all the future branches have now opened.  
 
 I have already combined these files together into a new file called:  
+https://github.com/copystar/do15/blob/master/combined-library-data.kml
 
+These location files are in .kml which is a notation for XML that first made popular by Google Earth before becoming standardized. Google Mapping Products happily use kml files.  
 
-These location files are in .kml which is a notation for XML that first made popular by Google Earth before becoming standardized. All Google Mapping Products use kml files.  
-
-## Try to make a Google Map using the .kml file provided. If you get stuck, please put a post-it note on your laptop
+## Task 1:  Try to make a Google Map using the combined-library-data.kml file provided
+If you get stuck, please put a post-it note on your laptop
   
