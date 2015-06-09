@@ -8,6 +8,7 @@ Good question. If I gave you directions here, I would tell you we are at 51 Dock
   
 But if I wanted to describe the location for a map, I might describe the same location using latitude and longitude:  
 43° 38' 39.2706", -79° 21' 55.4508"  
+You would read the above as "43 degrees, 38 minutes and 39.2706 seconds."
   
-I can described the same space using longitude and longitude using decimal degrees, instead of minutes and seconds"  
+Its confusing to describe a place using minutes and seconds. So let's describe the same place using longitude and longitude but using decimal degrees instead of minutes and seconds"  
 43.644242, -79.365403  
