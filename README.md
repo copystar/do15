@@ -86,10 +86,24 @@ A list of TPL Branches that does include year of opening can be found on Wikiped
 Google Fusion Tables is a Google product that adds visualization to structured data. Alternatively, these data tables could be combined using command-line tools.  
 
 - https://sites.google.com/site/fusiontablestalks/home
-- click on *Create a fusion table* from https://support.google.com/fusiontables/answer/2571232  
-- type *Toronto Public Library Branches* in the *search public data tables* search box
-- under *List of Toronto Public Library branches - Wikipedia*, click on *Export to Fusion Tables*
-- after you see *Successfully exported the table*, click on *Open the Fusion Table*
-- 
+- click on *Create a fusion table* from https://support.google.com/fusiontables/answer/2571232
+- click on *Choose File* from the *Import New Table" pop-up screen; then click *next*
+- it will ask you to confirm, *Column names are in row 1*, click *next*, change name if you'd like, then click *finish*
+- notice that the *Map of Geometry* tab is a map of the 102 branches
 
+### You can try to import the Wikipedia table into Google Fusion Tables...
+- open the *File* menu and select *Find a table to merge with*
+- a window with the heading, *Merge: Select a Table" should pop-up
+- from 'Suggest tables matching on' dropdown menu, select 'name'
+- select the table *List of Toronto Public Library branches - Wikipedia* in the list and then *next*
+- you will be asked to confirm the match; click *next*
+- select all fields to be merged; click *next*
+- you should have a new merged table of both data tables
+
+###... but if that doesn't work, import the Wikipedia table this way...
+- open the *File* menu and select *Merge...*
+- download and import the Wikipedia table found here: https://www.google.com/fusiontables/data?docid=1purEYw-Cu-lN-sn_Kq_QqTzYCB5e3P0umXsgeSHl#rows:id=1
+  
+###... and if all else fails
+- use this file 
  
