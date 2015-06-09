@@ -72,7 +72,7 @@ If you get stuck, please put a post-it note on your laptop
 - refer to "Adding GeoJSON to Leaflet with Link Relations" : http://lyzidiamond.com/posts/osgeo-august-meeting/
 - use *http://{s}.tile.osm.org/{z}/{x}/{y}.png* for your map tiles
 - use tpl-branches.json for your geojson layer: https://drive.google.com/open?id=0B5RDRo0uB7m5NHVvSWlBZTI3cHM&authuser=0  
-- explore changing the map features if you would like
+- explore changing the map features if you would like using Leafletjs http://leafletjs.com/
 - refer to tpl-branches-leaflet-osm.html in this repo if you get stuck
  
 ## Task 2 : Add the dimension of time so we can make a time-map
@@ -107,4 +107,4 @@ Google Fusion Tables is a Google product that adds visualization to structured d
 ###... and if all else fails
 - use this file https://drive.google.com/open?id=0B5RDRo0uB7m5ako1OWc5QkI1dU0&authuser=0 
  
-OH CRAP. Google Fusion Tables doesn't download to kml anymore. Need a new hack!
+**OH CRAP. Google Fusion Tables doesn't download to kml anymore. Need a new hack!**
