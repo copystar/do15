@@ -22,7 +22,10 @@ First you will need the locations of all the branches of the Toronto Public Libr
 Please note that the data in the catalogue is out of date. The site provides the location of Library Branch Locations (http://www.torontopubliclibrary.ca/data/library-data.kml) and Future Library Branch Locations (http://www.torontopubliclibrary.ca/data/new-library-data.kml) but all the future branches have now opened.  
 
 I have already combined these files together into a new file called:  
-https://github.com/copystar/do15/blob/master/combined-library-data.kml
+https://github.com/copystar/do15/blob/master/combined-library-data.kml 
+  
+It's also available on drive at: 
+https://drive.google.com/open?id=0B5RDRo0uB7m5SWFEbkVWSmdvdHc&authuser=0  
 
 These location files are in .kml which is a notation for XML that first made popular by Google Earth before becoming standardized. Google Mapping Products happily use kml files.  
 
