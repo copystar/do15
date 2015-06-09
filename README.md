@@ -68,7 +68,28 @@ If you get stuck, please put a post-it note on your laptop
 - select map features if you would like then click on Import Features
 - explore changing the map features if you would like
     
+**Bonus challenge: Using Leaflet and Openstreetmap tiles**
+- refer to "Adding GeoJSON to Leaflet with Link Relations" : http://lyzidiamond.com/posts/osgeo-august-meeting/
+- use *http://{s}.tile.osm.org/{z}/{x}/{y}.png* for your map tiles
+- use tpl-branches.json for your geojson layer: https://drive.google.com/open?id=0B5RDRo0uB7m5NHVvSWlBZTI3cHM&authuser=0  
+- explore changing the map features if you would like
+- refer to tpl-branches-leaflet-osm.html in this repo if you get stuck
+ 
+## Task 2 : Add the dimension of time so we can make a time-map
   
+While our map of the Toronto Public Library branches is informative, it can become complex and interesting if we add more the year of establishment to each branch. Doing so will allow the reader to learn the rate of the TPL growth and where this growth occurred. We do have a problem though. The Open Data Catalogue from the City of Toronto does not provide this information.  
+  
+A list of TPL Branches that does include year of opening can be found on Wikipedia: https://en.wikipedia.org/wiki/List_of_Toronto_Public_Library_branches  but this table does not provide the addresses nor the geolocations of each branch.  
 
+### Combine the kml file with the Wikipedia table of TPL branch opening dates using Google Fusion Tables
+
+Google Fusion Tables is a Google product that adds visualization to structured data. Alternatively, these data tables could be combined using command-line tools.  
+
+- https://sites.google.com/site/fusiontablestalks/home
+- click on *Create a fusion table* from https://support.google.com/fusiontables/answer/2571232  
+- type *Toronto Public Library Branches* in the *search public data tables* search box
+- under *List of Toronto Public Library branches - Wikipedia*, click on *Export to Fusion Tables*
+- after you see *Successfully exported the table*, click on *Open the Fusion Table*
+- 
 
  
