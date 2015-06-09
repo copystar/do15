@@ -10,11 +10,11 @@ But if I wanted to describe the location as a point on a map, I might describe t
   
 While it’s interesting that we describe a place using units of time (https://en.wikipedia.org/wiki/Longitude_(book)), its also confusing and somewhat unweildy. So let's describe the same place using longitude and longitude but using decimal degrees instead of minutes and seconds. There are a number of conversion tools available online to do this : 43.644242, -79.365403  
   
-## What if I wanted to tell people where the 100 library branches the TPL are in the city? 
+## What if I wanted to tell people where the 102 library branches the TPL are in the city? 
 You could make a map using Google Maps of all the TPL Library branches: http://www.torontopubliclibrary.ca/hours-locations/  
 
 ## How could I make this map?
-First you will need the locations of all 100 branches of the Toronto Public Library. These are provided by the City of Toronto from their Open Data Catalogue at: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a7ae0ea14b661310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD  
+First you will need the locations of all 102 branches of the Toronto Public Library. These are provided by the City of Toronto from their Open Data Catalogue at: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a7ae0ea14b661310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD  
   
 These location files are in .kml which is a notation for XML that first made popular by Google Earth before becoming standardized. Google Mapping Products happily use kml files. Look at http://www.torontopubliclibrary.ca/data/library-data.kml to see how the locations are described:
 
@@ -32,8 +32,7 @@ Address: 155 Bonis Ave., Toronto, ON, M1T 3W6<br/>Link: http://www.torontopublic
 </Placemark>
 ```
 
-Notice that the point coordinates are in the format <coordinates>longitude, latitude</latitude>  
--79.29342962962961,43.78516666666665  
+Notice that the point coordinates are in the format <coordinates>longitude, latitude</latitude>. Some geoformats are long, lat and others are long, lat.   
   
 Also note that the data in the catalogue is out of date. The site provides the location of Library Branch Locations (http://www.torontopubliclibrary.ca/data/library-data.kml) and Future Library Branch Locations (http://www.torontopubliclibrary.ca/data/new-library-data.kml) but all the future branches have now opened.  
 
@@ -47,19 +46,28 @@ https://drive.google.com/open?id=0B5RDRo0uB7m5SWFEbkVWSmdvdHc&authuser=0
 If you get stuck, please put a post-it note on your laptop
   
 **Using Google Map**
-- 1. https://www.google.com/maps/d/
-- 2. create account if you don't already have a Gmail account
-- 3. click on *Import Map* in top left hand menu
-- 4. upload combined-library.data.kml
-- 5. explore change the map features if you would like
+- https://www.google.com/maps/d/
+- create account if you don't already have a Gmail account
+- click on *Import Map* in top left hand menu
+- upload combined-library.data.kml
+- explore changing the map features if you would like
 
 **Using CartoDB**  
-1. https://cartodb.com/
-2. create account if you don't already have a CartoDB account
-3. click on *Create Map*; select *Map View* at the top of the screen
-4. click on the '+' or *Add Layer* option at the top of the right side menu
-5. upload combined-library.data.kml
-6. explore change the map features if you would like
+- https://cartodb.com/
+- create account if you don't already have a CartoDB account
+- click on *Create Map*; select *Map View* at the top of the screen
+- click on the '+' or *Add Layer* option at the top of the right side menu
+- upload combined-library.data.kml
+- explore changing the map features if you would like
+   
+**Using Mapbox**
+- https://mapbox.com/
+- create account if you don't already have a Mapbox account
+- click on the *Data* tab at the top right hand corner of the screen; click on import
+- upload combined-library.data.kml
+- select map features if you would like then click on Import Features
+- explore changing the map features if you would like
+    
   
 
 
