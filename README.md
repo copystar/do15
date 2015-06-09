@@ -26,6 +26,6 @@ https://github.com/copystar/do15/blob/master/combined-library-data.kml
 
 These location files are in .kml which is a notation for XML that first made popular by Google Earth before becoming standardized. Google Mapping Products happily use kml files.  
 
-## Task 1:  Try to make a Google Map using the combined-library-data.kml file provided
+## Task 1: Make a Google Map using the kml file provided
 If you get stuck, please put a post-it note on your laptop
   
