@@ -32,7 +32,7 @@ Address: 155 Bonis Ave., Toronto, ON, M1T 3W6<br/>Link: http://www.torontopublic
 </Placemark>
 ```
 
-Notice that the point coordinates are in the format <coordinates>longitude, latitude</latitude>. Some geoformats are long, lat and others are long, lat.   
+Notice that the point coordinates are in the format <coordinates>longitude, latitude</latitude>. Some geoformats are long, lat and others are long, lat. This makes everyone sad.   
   
 Also note that the data in the catalogue is out of date. The site provides the location of Library Branch Locations (http://www.torontopubliclibrary.ca/data/library-data.kml) and Future Library Branch Locations (http://www.torontopubliclibrary.ca/data/new-library-data.kml) but all the future branches have now opened.  
 
@@ -105,5 +105,6 @@ Google Fusion Tables is a Google product that adds visualization to structured d
 - download and import the Wikipedia table found here: https://www.google.com/fusiontables/data?docid=1purEYw-Cu-lN-sn_Kq_QqTzYCB5e3P0umXsgeSHl#rows:id=1
   
 ###... and if all else fails
-- use this file 
+- use this file https://drive.google.com/open?id=0B5RDRo0uB7m5ako1OWc5QkI1dU0&authuser=0 
  
+OH CRAP. Google Fusion Tables doesn't download to kml anymore. Need a new hack!
