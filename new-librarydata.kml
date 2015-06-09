@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark id="LIB100">
+<name>Scarborough Centre</name>
+<description>Address: 140 Borough Dr., Toronto, ON, M1T 3W6&lt;br/&gt;Link: http://www.torontopubliclibrary.ca/renovations/scarborough-centre-branch.jsp</description>
+<address>140 Borough Dr., Toronto, ON, M1T 3W6</address>
+<phoneNumber></phoneNumber>
+<Point>
+<coordinates>-79.257475,43.772067</coordinates>
+</Point>
+</Placemark>
+<Placemark id="LIB101">
+<name>Fort York/Bathurst</name>
+<description>Address: Fort York Blvd &amp; Bathurst St, Toronto, ON &lt;br/&gt;Link: http://www.torontopubliclibrary.ca/renovations/fort-york-bathurst-branch.jsp</description>
+<address>Fort York Blvd &amp; Bathurst St, Toronto, ON</address>
+<phoneNumber></phoneNumber>
+<Point>
+<coordinates>-79.40062,43.63885</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
