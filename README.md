@@ -6,12 +6,9 @@ I'm Mita Williams. I'm the UX librarian from the University of Windsor.  I am co
 ## Where am I?
 Good question. If I gave you directions here, I would tell you we are at 51 Dockside Dr, Toronto, ON M5A 1B6.  
   
-But if I wanted to describe the location as a point on a map, I might describe the same location using latitude and longitude:  
-43° 38' 39.2706", -79° 21' 55.4508"  
-You would read the above as "43 degrees, 38 minutes and 39.2706 seconds, negative 79 degrees, 21 minutes and 55.4508 seconds".
+But if I wanted to describe the location as a point on a map, I might describe the same location using latitude and longitude:  43° 38' 39.2706", -79° 21' 55.4508"  You would read the above as "43 degrees, 38 minutes and 39.2706 seconds, negative 79 degrees, 21 minutes and 55.4508 seconds".
   
-While it’s interesting that we describe a place using units of time (https://en.wikipedia.org/wiki/Longitude_(book)), its also confusing and somewhat unweildy. So let's describe the same place using longitude and longitude but using decimal degrees instead of minutes and seconds. There are a number of conversion tools available online to do this.     
-43.644242, -79.365403  
+While it’s interesting that we describe a place using units of time (https://en.wikipedia.org/wiki/Longitude_(book)), its also confusing and somewhat unweildy. So let's describe the same place using longitude and longitude but using decimal degrees instead of minutes and seconds. There are a number of conversion tools available online to do this : 43.644242, -79.365403  
   
 ## What if I wanted to tell people where the 100 library branches the TPL are in the city? 
 You could make a map using Google Maps of all the TPL Library branches: http://www.torontopubliclibrary.ca/hours-locations/  
@@ -50,11 +47,11 @@ https://drive.google.com/open?id=0B5RDRo0uB7m5SWFEbkVWSmdvdHc&authuser=0
 If you get stuck, please put a post-it note on your laptop
   
 **Using Google Map**
-1. https://www.google.com/maps/d/
-2. create account if you don't already have a Gmail account
-2. click on *Import Map* in top left hand menu
-3. upload combined-library.data.kml
-4. explore change the map features if you would like
+- 1. https://www.google.com/maps/d/
+- 2. create account if you don't already have a Gmail account
+- 3. click on *Import Map* in top left hand menu
+- 4. upload combined-library.data.kml
+- 5. explore change the map features if you would like
 
 **Using CartoDB**  
 1. https://cartodb.com/
