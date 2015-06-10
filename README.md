@@ -33,7 +33,7 @@ Address: 155 Bonis Ave., Toronto, ON, M1T 3W6<br/>Link: http://www.torontopublic
 ```
 
 Notice that the point coordinates are in the format <coordinates>longitude, latitude</latitude>. Some geoformats are long, lat and others are long, lat. This makes everyone sad.   
-  
+
 Also note that the data in the catalogue is out of date. The site provides the location of Library Branch Locations (http://www.torontopubliclibrary.ca/data/library-data.kml) and Future Library Branch Locations (http://www.torontopubliclibrary.ca/data/new-library-data.kml) but all the future branches have now opened.  
 
 I have already combined these files together into a new file called:   
@@ -68,8 +68,34 @@ If you get stuck, please put a post-it note on your laptop
 - select map features if you would like then click on Import Features
 - explore changing the map features if you would like
     
-**Bonus challenge: Using Leaflet and Openstreetmap tiles**
-- refer to "Adding GeoJSON to Leaflet with Link Relations" : http://lyzidiamond.com/posts/osgeo-august-meeting/
+## Bonus challenge: Using Leaflet and Openstreetmap tiles
+If you are comfortable with HTML and some JavaScript, try making a map from scratch using Leaflet.js (http://leafletjs.com/) to attach a set of points to a map made of tiles provided by OpenStreetMap.  
+  
+You will first need to convert your kml file into GeoJSON. GeoJSON is a file format that is easily digestable by JavaScript. There are many tools that can do this but for this exercise, try http://geojson.io/   
+
+- go to http://geojson.io/  
+- from the menu *Open* select *File* and upload our kml file: https://github.com/copystar/do15/blob/master/combined-library-data.kml 
+- notice how GeoJSON looks like in the side-menu
+
+
+```
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26925185185183,
+          43.708018518518514
+        ]
+      },
+      "properties": {
+        "name": "Albert Campbell",
+        "description": "Address: 496 Birchmount Road, Toronto, ON, M1K 1N8<br/>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB03"
+      }
+    },
+```
+- after the map is drawn, from the menu *Save*, select *GeoJSON" 
+- refer to "Adding GeoJSON to Leaflet with Link Relations" : http://lyzidiamond.com/posts/osgeo-august-meeting/ to find a template that will import GeoJSON into a map created by Leaflt
 - use *http://{s}.tile.osm.org/{z}/{x}/{y}.png* for your map tiles
 - use tpl-branches.json for your geojson layer: https://drive.google.com/open?id=0B5RDRo0uB7m5NHVvSWlBZTI3cHM&authuser=0  
 - explore changing the map features if you would like using Leafletjs http://leafletjs.com/
