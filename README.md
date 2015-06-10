@@ -69,9 +69,9 @@ If you get stuck, please put a post-it note on your laptop
 - explore changing the map features if you would like
     
 ## Bonus challenge: Using Leaflet and Openstreetmap tiles
-If you are comfortable with HTML and some JavaScript, try making a map from scratch using Leaflet.js (http://leafletjs.com/) to attach a set of points to a map made of tiles provided by OpenStreetMap.  
+If you are comfortable with HTML and JavaScript, try making a map from scratch using Leaflet.js (http://leafletjs.com/) to attach a set of points to a map made of tiles provided by OpenStreetMap.  
   
-You will first need to convert your kml file into GeoJSON. GeoJSON is a file format that is easily digestable by JavaScript. There are many tools that can do this but for this exercise, try http://geojson.io/   
+You will first need to convert your kml file into GeoJSON. GeoJSON is a file format that is easily digestable by JavaScript. There are many tools that can do this but for this exercise try http://geojson.io/   
 
 - go to http://geojson.io/  
 - from the menu *Open* select *File* and upload our kml file: https://github.com/copystar/do15/blob/master/combined-library-data.kml 
@@ -95,10 +95,10 @@ You will first need to convert your kml file into GeoJSON. GeoJSON is a file for
     },
 ```
 - after the map is drawn, from the menu *Save*, select *GeoJSON" 
-- refer to "Adding GeoJSON to Leaflet with Link Relations" : http://lyzidiamond.com/posts/osgeo-august-meeting/ to find a template that will import GeoJSON into a map created by Leaflt
+- refer to "Adding GeoJSON to Leaflet with Link Relations" : http://lyzidiamond.com/posts/osgeo-august-meeting/ to find the HTML that use can use as a template that will import GeoJSON into a map created by Leaflet.js
 - use *http://{s}.tile.osm.org/{z}/{x}/{y}.png* for your map tiles
-- use tpl-branches.json for your geojson layer: https://drive.google.com/open?id=0B5RDRo0uB7m5NHVvSWlBZTI3cHM&authuser=0  
-- explore changing the map features if you would like using Leafletjs http://leafletjs.com/
+- use tpl-branches.json for your geojson layer: https://github.com/copystar/do15/blob/master/tpl-branches.json  
+- explore changing the map features if you would like using Leaflet.js http://leafletjs.com/
 - refer to tpl-branches-leaflet-osm.html in this repo if you get stuck
  
 ## Task 2 : Add the dimension of time 
@@ -109,7 +109,7 @@ A list of TPL Branches that does include year of opening can be found on Wikiped
 
 ### Combine the kml file with the Wikipedia table of TPL branch opening dates using Google Fusion Tables
 
-Google Fusion Tables is a Google product that adds visualization to structured data. Alternatively, these data tables could be combined using command-line tools.  
+Google Fusion Tables is a Google product that adds visualization to structured data. Alternatively, these data tables could be combined using command-line tools or using services such as CartoDB.  
 
 #### First we will import our combined-library.data.kml file
 
@@ -147,11 +147,26 @@ Google Fusion Tables is a Google product that adds visualization to structured d
 - go to the tab of the *Map of Geometry*
 - from the File menu, select *Download* as kml
 
-### You should now have a downloaded kml file of the 102 branches that now includes the year of opening 
-
 ## Task 3 : Let's make a time map (again!) 
 
+You should now have a downloaded kml file of the 102 branches that now includes the year of opening. If not, use this file https://github.com/copystar/do15/blob/master/Merge-of-TPL-Library-Branches-and-Wikipedia.kml  
 
+We are now going to create an animation of this branch openings using Cartodb.com  
 
+- https://cartodb.com/
+- create account if you don't already have a CartoDB account
+- click on *Create Map*; select *Map View* at the top of the screen
+- click on the '+' or *Add Layer* option at the top of the right side menu
+- upload Merge-of-TPL-Library-Branches-and-Wikipedia.kml
+- select *Data View* at the top of the screen
+- under the *Built* column, mouse over the word *string*; then pull down the menu to select *number*; confirm the action
+- select *Map View* at the top of the screen
+- from the right hand menu, click on the paintbrush icon (wizards)
+- from the list of visualizations, click on the right arrow until you see and select the option *Torque*
+- from the next line, activate on the *Cumulative* switch
+- from the next line, select *built* from the drop down menu for the *Time Column*
+- an animation should begin in the main map screen
+- explore changing the map features if you would like
  
 
+Here be dragons.
