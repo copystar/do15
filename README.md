@@ -75,7 +75,7 @@ If you get stuck, please put a post-it note on your laptop
 - explore changing the map features if you would like using Leafletjs http://leafletjs.com/
 - refer to tpl-branches-leaflet-osm.html in this repo if you get stuck
  
-## Task 2 : Add the dimension of time so we can make a time-map
+## Task 2 : Add the dimension of time 
   
 While our map of the Toronto Public Library branches is informative, it can become complex and interesting if we add more the year of establishment to each branch. Doing so will allow the reader to learn the rate of the TPL growth and where this growth occurred. We do have a problem though. The Open Data Catalogue from the City of Toronto does not provide this information.  
   
@@ -85,11 +85,16 @@ A list of TPL Branches that does include year of opening can be found on Wikiped
 
 Google Fusion Tables is a Google product that adds visualization to structured data. Alternatively, these data tables could be combined using command-line tools.  
 
+#### First we will import our combined-library.data.kml file
+
 - https://sites.google.com/site/fusiontablestalks/home
 - click on *Create a fusion table* from https://support.google.com/fusiontables/answer/2571232
 - click on *Choose File* from the *Import New Table" pop-up screen; then click *next*
+- import https://raw.githubusercontent.com/copystar/do15/master/combined-library-data.kml  
 - it will ask you to confirm, *Column names are in row 1*, click *next*, change name if you'd like, then click *finish*
 - notice that the *Map of Geometry* tab is a map of the 102 branches
+
+#### Then we are going to add the Wikipedia Table to our kml file
 
 ### You can try to import the Wikipedia table into Google Fusion Tables...
 - open the *File* menu and select *Find a table to merge with*
@@ -99,12 +104,28 @@ Google Fusion Tables is a Google product that adds visualization to structured d
 - you will be asked to confirm the match; click *next*
 - select all fields to be merged; click *next*
 - you should have a new merged table of both data tables
+- go to the tab of the *Map of Geometry*
+- from the File menu, select *Download* as kml
 
 ###... but if that doesn't work, import the Wikipedia table this way...
 - open the *File* menu and select *Merge...*
-- download and import the Wikipedia table found here: https://www.google.com/fusiontables/data?docid=1purEYw-Cu-lN-sn_Kq_QqTzYCB5e3P0umXsgeSHl#rows:id=1
+- download and import the Wikipedia table found here: https://drive.google.com/open?id=1aRIFZ0fMJptaZf-tvUsL4ZI7_KurknKneJfjyQzl&authuser=0  
+- you will be asked to confirm the match; click *next*
+- select all fields to be merged; click *next*
+- you should have a new merged table of both data tables
+- go to the tab of the *Map of Geometry*
+- from the File menu, select *Download* as kml
   
-###... and if all else fails
-- use this file https://drive.google.com/open?id=0B5RDRo0uB7m5ako1OWc5QkI1dU0&authuser=0 
+###... and if all else fails...
+- use this file : https://drive.google.com/open?id=17rQmkQzoz3bAVA33-4HEJRfdlMkR4h0hwS8CANQf&authuser=0  
+- go to the tab of the *Map of Geometry*
+- from the File menu, select *Download* as kml
+
+### You should now have a downloaded kml file of the 102 branches that now includes the year of opening 
+
+## Task 3 : Let's make a time map (again!) 
+
+
+
  
-**OH CRAP. Google Fusion Tables doesn't download to kml anymore. Need a new hack!**
+
