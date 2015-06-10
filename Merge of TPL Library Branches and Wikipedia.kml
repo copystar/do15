@@ -1,0 +1,3171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Merge of TPL Library Branches and Wikipedia</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Agincourt</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Agincourt<br>
+<b>description:</b> Address: 155 Bonis Ave., Toronto, ON, M1T 3W6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB02<br>
+<b>Neighbourhood:</b> Agincourt<br>
+<b>Opened:</b> 1918<br>
+<b>Built:</b> 1991<br>
+<b>Collection size:</b> 176,367<br>
+<b>Notes:</b> Originally the Agincourt Association Library for the village of Agincourt, later part of Scarborough Public Library; moved from Agincourt Mall location in 1991
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Agincourt</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1918</value>
+				</Data>
+				<Data name='Built'>
+					<value>1991</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>176,367</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Originally the Agincourt Association Library for the village of Agincourt, later part of Scarborough Public Library; moved from Agincourt Mall location in 1991</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.29343,43.785167</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Albert Campbell</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Albert Campbell<br>
+<b>description:</b> Address: 496 Birchmount Road, Toronto, ON, M1K 1N8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB03<br>
+<b>Neighbourhood:</b> Scarborough Junction<br>
+<b>Opened:</b> 1971<br>
+<b>Built:</b> 1971<br>
+<b>Collection size:</b> 120,658<br>
+<b>Notes:</b> Named after Albert Campbell; operated as Albert Campbell District Branch prior to 1998
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Scarborough Junction</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1971</value>
+				</Data>
+				<Data name='Built'>
+					<value>1971</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>120,658</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Named after Albert Campbell; operated as Albert Campbell District Branch prior to 1998</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.269252,43.708019</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Albion</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Albion<br>
+<b>description:</b> Address: 1515 Albion Road, Toronto, ON, M9V 1B2<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB04<br>
+<b>Neighbourhood:</b> Smithfield<br>
+<b>Opened:</b> 1965<br>
+<b>Built:</b> 1973<br>
+<b>Collection size:</b> 133,268<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Smithfield</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1965</value>
+				</Data>
+				<Data name='Built'>
+					<value>1973</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>133,268</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.584096,43.739826</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Alderwood</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Alderwood<br>
+<b>description:</b> Address: 2 Orianna Drive, Toronto, ON, M8W 4Y1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB020<br>
+<b>Neighbourhood:</b> Alderwood<br>
+<b>Opened:</b> 1958<br>
+<b>Built:</b> 1999<br>
+<b>Collection size:</b> 49,830<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Alderwood</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1958</value>
+				</Data>
+				<Data name='Built'>
+					<value>1999</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>49,830</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.547252,43.601944</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Amesbury Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Amesbury Park<br>
+<b>description:</b> Address: 1565 Lawrence Ave. W., Toronto, ON, M6L 1A8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB021<br>
+<b>Neighbourhood:</b> Amesbury<br>
+<b>Opened:</b> 1967<br>
+<b>Built:</b> 1967<br>
+<b>Collection size:</b> 39,287<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Amesbury</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1967</value>
+				</Data>
+				<Data name='Built'>
+					<value>1967</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>39,287</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.485726,43.706456</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Annette Street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Annette Street<br>
+<b>description:</b> Address: 145 Annette Street, Toronto, ON, M6P 1P3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB022<br>
+<b>Neighbourhood:</b> The Junction<br>
+<b>Opened:</b> 1888<br>
+<b>Built:</b> 1909<br>
+<b>Collection size:</b> 39,083<br>
+<b>Notes:</b> Carnegie library
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>The Junction</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1888</value>
+				</Data>
+				<Data name='Built'>
+					<value>1909</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>39,083</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Carnegie library</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.466348,43.663359</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Armour Heights</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Armour Heights<br>
+<b>description:</b> Address: 2140 Avenue Road, Toronto, ON, M5M 4M7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB023<br>
+<b>Neighbourhood:</b> Armour Heights<br>
+<b>Opened:</b> 1982<br>
+<b>Built:</b> 1982<br>
+<b>Collection size:</b> 26,528<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Armour Heights</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1982</value>
+				</Data>
+				<Data name='Built'>
+					<value>1982</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>26,528</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.421889,43.739337</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Barbara Frum</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Barbara Frum<br>
+<b>description:</b> Address: 20 Covington Road, Toronto, ON, M6A 3C1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB05<br>
+<b>Neighbourhood:</b> Lawrence Manor<br>
+<b>Opened:</b> 1992<br>
+<b>Built:</b> 1992<br>
+<b>Collection size:</b> 138,657<br>
+<b>Notes:</b> Replaced Bathurst Heights Regional Library. Named after Barbara Frum
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Lawrence Manor</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1992</value>
+				</Data>
+				<Data name='Built'>
+					<value>1992</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>138,657</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Replaced Bathurst Heights Regional Library. Named after Barbara Frum</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.432215,43.720752</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Bayview</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Bayview<br>
+<b>description:</b> Address: 2901 Bayview Ave., Bayview Village Shopping Centre, Toronto, ON, M2K 1E6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB024<br>
+<b>Neighbourhood:</b> Bayview Village<br>
+<b>Opened:</b> 1966<br>
+<b>Built:</b> 2002<br>
+<b>Collection size:</b> 43,145<br>
+<b>Notes:</b> Inside Bayview Village Shopping Centre
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Bayview Village</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1966</value>
+				</Data>
+				<Data name='Built'>
+					<value>2002</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>43,145</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Inside Bayview Village Shopping Centre</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.385,43.768856</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Beaches</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Beaches<br>
+<b>description:</b> Address: 2161 Queen Street East, Toronto, ON, M4L 1J1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB025<br>
+<b>Neighbourhood:</b> The Beaches<br>
+<b>Opened:</b> 1914<br>
+<b>Built:</b> 1916<br>
+<b>Collection size:</b> 54,089<br>
+<b>Notes:</b> Carnegie library
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>The Beaches</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1914</value>
+				</Data>
+				<Data name='Built'>
+					<value>1916</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>54,089</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Carnegie library</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.298526,43.67013</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Bendale</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Bendale<br>
+<b>description:</b> Address: 1515 Danforth Road, Toronto, ON, M1J 1H5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB026<br>
+<b>Neighbourhood:</b> Bendale<br>
+<b>Opened:</b> 1834<br>
+<b>Built:</b> 1961<br>
+<b>Collection size:</b> 38,957<br>
+<b>Notes:</b> Founded as the Scarboro' Subscription Library and then became the Scarborough Mechanics' Institute. In 1955 became one of the first three branches of the Scarborough Public Library
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Bendale</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1834</value>
+				</Data>
+				<Data name='Built'>
+					<value>1961</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>38,957</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Founded as the Scarboro' Subscription Library and then became the Scarborough Mechanics' Institute. In 1955 became one of the first three branches of the Scarborough Public Library</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.244052,43.751063</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Black Creek</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Black Creek<br>
+<b>description:</b> Address: 1700 Wilson Ave., North York Sheridan Mall, Toronto, ON, M3L 1B2<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB027<br>
+<b>Neighbourhood:</b> Downsview<br>
+<b>Opened:</b> 1968<br>
+<b>Built:</b> 2002<br>
+<b>Collection size:</b> 32,052<br>
+<b>Notes:</b> Located in the North York Sheridan Mall
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Downsview</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1968</value>
+				</Data>
+				<Data name='Built'>
+					<value>2002</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>32,052</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Located in the North York Sheridan Mall</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.510467,43.721219</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Bloor/Gladstone</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Bloor/Gladstone<br>
+<b>description:</b> Address: 1101 Bloor Street West, Toronto, ON, M6H 1M7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB06<br>
+<b>Neighbourhood:</b> Dufferin Grove<br>
+<b>Opened:</b> 1911<br>
+<b>Built:</b> 1911<br>
+<b>Collection size:</b> 59,825<br>
+<b>Notes:</b> Reopened after renovations in 2009
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Dufferin Grove</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1911</value>
+				</Data>
+				<Data name='Built'>
+					<value>1911</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>59,825</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Reopened after renovations in 2009</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.434022,43.659878</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Brentwood</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Brentwood<br>
+<b>description:</b> Address: 36 Brentwood Road North, Toronto, ON, M8X 2B5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB07<br>
+<b>Neighbourhood:</b> The Kingsway<br>
+<b>Opened:</b> 1955<br>
+<b>Built:</b> 1955<br>
+<b>Collection size:</b> 97,432<br>
+<b>Notes:</b> Etobicoke's main library from 1955 to 1966
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>The Kingsway</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1955</value>
+				</Data>
+				<Data name='Built'>
+					<value>1955</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>97,432</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Etobicoke's main library from 1955 to 1966</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.514259,43.647448</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Bridlewood</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Bridlewood<br>
+<b>description:</b> Address: 2900 Warden Ave., Bridlewood Mall, Toronto, ON, M1W 2S8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB028<br>
+<b>Neighbourhood:</b> L'Amoreaux<br>
+<b>Opened:</b> 1976<br>
+<b>Built:</b> 1992<br>
+<b>Collection size:</b> 59,472<br>
+<b>Notes:</b> At Bridlewood Mall
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>L'Amoreaux</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1976</value>
+				</Data>
+				<Data name='Built'>
+					<value>1992</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>59,472</value>
+				</Data>
+				<Data name='Notes'>
+					<value>At Bridlewood Mall</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.31777,43.797144</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Brookbanks</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Brookbanks<br>
+<b>description:</b> Address: 210 Brookbanks Dr., Toronto, ON, M3A 2T8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB029<br>
+<b>Neighbourhood:</b> Parkwoods<br>
+<b>Opened:</b> 1968<br>
+<b>Built:</b> 1968<br>
+<b>Collection size:</b> 49,023<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Parkwoods</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1968</value>
+				</Data>
+				<Data name='Built'>
+					<value>1968</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>49,023</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.325904,43.759507</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Burrows Hall</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Burrows Hall<br>
+<b>description:</b> Address: 1081 Progress Ave., Toronto, ON, M1B 5Z6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB030<br>
+<b>Neighbourhood:</b> Malvern<br>
+<b>Opened:</b> 1998<br>
+<b>Built:</b> 1998<br>
+<b>Collection size:</b> 53,137<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Malvern</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1998</value>
+				</Data>
+				<Data name='Built'>
+					<value>1998</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>53,137</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.23423,43.793885</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Cedarbrae</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Cedarbrae<br>
+<b>description:</b> Address: 545 Markham Road, Toronto, ON, M1H 2A1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB08<br>
+<b>Neighbourhood:</b> Woburn<br>
+<b>Opened:</b> 1966<br>
+<b>Built:</b> 1966<br>
+<b>Collection size:</b> 158,760<br>
+<b>Notes:</b> operated as Cederbrae District Branch prior to 1998
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Woburn</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1966</value>
+				</Data>
+				<Data name='Built'>
+					<value>1966</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>158,760</value>
+				</Data>
+				<Data name='Notes'>
+					<value>operated as Cederbrae District Branch prior to 1998</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.223963,43.75753</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Centennial</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Centennial<br>
+<b>description:</b> Address: 578 Finch Ave. West, Toronto, ON, M2R 1N7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB031<br>
+<b>Neighbourhood:</b> Branson<br>
+<b>Opened:</b> 1966<br>
+<b>Built:</b> 1966<br>
+<b>Collection size:</b> 36,360<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Branson</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1966</value>
+				</Data>
+				<Data name='Built'>
+					<value>1966</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>36,360</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.449578,43.772989</coordinates></Point></Placemark>
+		<Placemark>
+			<name>City Hall</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> City Hall<br>
+<b>description:</b> Address: 100 Queen Street West, Nathan Phillips Square, Toronto, ON, M5H 2N3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB032<br>
+<b>Neighbourhood:</b> Downtown<br>
+<b>Opened:</b> 1965<br>
+<b>Built:</b> 1965<br>
+<b>Collection size:</b> 36,683<br>
+<b>Notes:</b> Inside Toronto City Hall
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Downtown</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1965</value>
+				</Data>
+				<Data name='Built'>
+					<value>1965</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>36,683</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Inside Toronto City Hall</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.383993,43.653367</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Cliffcrest</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Cliffcrest<br>
+<b>description:</b> Address: 3017 Kingston Road, Toronto, ON, M1M 1P1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB033<br>
+<b>Neighbourhood:</b> Cliffcrest<br>
+<b>Opened:</b> 1972<br>
+<b>Built:</b> 2008<br>
+<b>Collection size:</b> 30,087<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Cliffcrest</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1972</value>
+				</Data>
+				<Data name='Built'>
+					<value>2008</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>30,087</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.23077,43.72517</coordinates></Point></Placemark>
+		<Placemark>
+			<name>College/Shaw</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> College/Shaw<br>
+<b>description:</b> Address: 766 College Street, Toronto, ON, M6G 1C4<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB034<br>
+<b>Neighbourhood:</b> Little Italy<br>
+<b>Opened:</b> 1984<br>
+<b>Built:</b> 1984<br>
+<b>Collection size:</b> 37,123<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Little Italy</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1984</value>
+				</Data>
+				<Data name='Built'>
+					<value>1984</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>37,123</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.420111,43.655159</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Danforth/Coxwell</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Danforth/Coxwell<br>
+<b>description:</b> Address: 1675 Danforth Ave., Toronto, ON, M4C 5P2<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB035<br>
+<b>Neighbourhood:</b> East Danforth<br>
+<b>Opened:</b> 1989<br>
+<b>Built:</b> 1989<br>
+<b>Collection size:</b> 52,136<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>East Danforth</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1989</value>
+				</Data>
+				<Data name='Built'>
+					<value>1989</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>52,136</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.3214,43.683574</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Davenport</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Davenport<br>
+<b>description:</b> Address: 1246 Shaw Street, Toronto, ON, M6G 3P1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB036<br>
+<b>Neighbourhood:</b> Davenport<br>
+<b>Opened:</b> 1988<br>
+<b>Built:</b> 1988<br>
+<b>Collection size:</b> 15,971<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Davenport</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1988</value>
+				</Data>
+				<Data name='Built'>
+					<value>1988</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>15,971</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.428452,43.67453</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Dawes Road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Dawes Road<br>
+<b>description:</b> Address: 416 Dawes Road, Toronto, ON, M4B 2E8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB037<br>
+<b>Neighbourhood:</b> O'Connor-Parkview<br>
+<b>Opened:</b> 1976<br>
+<b>Built:</b> 1976<br>
+<b>Collection size:</b> 48,472<br>
+<b>Notes:</b> Replaced Woodbine Gardens branch
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>O'Connor-Parkview</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1976</value>
+				</Data>
+				<Data name='Built'>
+					<value>1976</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>48,472</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Replaced Woodbine Gardens branch</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.297326,43.701174</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Deer Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Deer Park<br>
+<b>description:</b> Address: 40 St. Clair Ave. E., Toronto, ON, M4T 1M9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB038<br>
+<b>Neighbourhood:</b> Deer Park<br>
+<b>Opened:</b> 1905<br>
+<b>Built:</b> 1952<br>
+<b>Collection size:</b> 74,088<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Deer Park</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1905</value>
+				</Data>
+				<Data name='Built'>
+					<value>1952</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>74,088</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.392481,43.688581</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Don Mills</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Don Mills<br>
+<b>description:</b> Address: 888 Lawrence Ave. East, Toronto, ON, M3C 1P6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB09<br>
+<b>Neighbourhood:</b> Don Mills<br>
+<b>Opened:</b> 1961<br>
+<b>Built:</b> 1961<br>
+<b>Collection size:</b> 128,059<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Don Mills</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1961</value>
+				</Data>
+				<Data name='Built'>
+					<value>1961</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>128,059</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.347341,43.736641</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Downsview</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Downsview<br>
+<b>description:</b> Address: 2793 Keele Street, Toronto, ON, M3M 2G3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB039<br>
+<b>Neighbourhood:</b> Downsview<br>
+<b>Opened:</b> 1962<br>
+<b>Built:</b> 1962<br>
+<b>Collection size:</b> 83,604<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Downsview</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1962</value>
+				</Data>
+				<Data name='Built'>
+					<value>1962</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>83,604</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.482052,43.72887</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Dufferin/St. Clair</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Dufferin/St. Clair<br>
+<b>description:</b> Address: 1625 Dufferin Street, Toronto, ON, M6H 3L9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB040<br>
+<b>Neighbourhood:</b> Corso Italia<br>
+<b>Opened:</b> 1921<br>
+<b>Built:</b> 1921<br>
+<b>Collection size:</b> 38,883<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Corso Italia</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1921</value>
+				</Data>
+				<Data name='Built'>
+					<value>1921</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>38,883</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.442407,43.67693</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Eatonville</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Eatonville<br>
+<b>description:</b> Address: 430 Burnhamthorpe Road, Toronto, ON, M9B 2B1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB041<br>
+<b>Neighbourhood:</b> Eatonville<br>
+<b>Opened:</b> 1964<br>
+<b>Built:</b> 1964<br>
+<b>Collection size:</b> 73,786<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Eatonville</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1964</value>
+				</Data>
+				<Data name='Built'>
+					<value>1964</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>73,786</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.559163,43.646122</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Eglinton Square</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Eglinton Square<br>
+<b>description:</b> Address: 1 Eglinton Square, Unit 126, Eglinton Square Shopping Centre, Toronto, ON, M1L 2K1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB042<br>
+<b>Neighbourhood:</b> Golden Mile<br>
+<b>Opened:</b> 1955<br>
+<b>Built:</b> 1965<br>
+<b>Collection size:</b> 44,306<br>
+<b>Notes:</b> In Eglinton Square shopping mall
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Golden Mile</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1955</value>
+				</Data>
+				<Data name='Built'>
+					<value>1965</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>44,306</value>
+				</Data>
+				<Data name='Notes'>
+					<value>In Eglinton Square shopping mall</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.300333,43.723685</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Elmbrook Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Elmbrook Park<br>
+<b>description:</b> Address: 2 Elmbrook Cres., Toronto, ON, M9C 5B4<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB043<br>
+<b>Neighbourhood:</b> Eringate<br>
+<b>Opened:</b> 1988<br>
+<b>Built:</b> 1988<br>
+<b>Collection size:</b> 35,929<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Eringate</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1988</value>
+				</Data>
+				<Data name='Built'>
+					<value>1988</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>35,929</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.583844,43.660122</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Evelyn Gregory</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Evelyn Gregory<br>
+<b>description:</b> Address: 120 Trowell Ave., Toronto, ON, M6M 1L7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB044<br>
+<b>Neighbourhood:</b> Silverthorn<br>
+<b>Opened:</b> 1968<br>
+<b>Built:</b> 1968<br>
+<b>Collection size:</b> 42,632<br>
+<b>Notes:</b> Named in honour of York Public Library Chief Librarian Evelyn Gregory
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Silverthorn</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1968</value>
+				</Data>
+				<Data name='Built'>
+					<value>1968</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>42,632</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Named in honour of York Public Library Chief Librarian Evelyn Gregory</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.472348,43.686189</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Fairview</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Fairview<br>
+<b>description:</b> Address: 35 Fairview Mall Dr., Toronto, ON, M2J 4S4<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB010<br>
+<b>Neighbourhood:</b> Don Valley Village<br>
+<b>Opened:</b> 1972<br>
+<b>Built:</b> 1976<br>
+<b>Collection size:</b> 218,432<br>
+<b>Notes:</b> Adjacent to Fairview Mall
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Don Valley Village</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1972</value>
+				</Data>
+				<Data name='Built'>
+					<value>1976</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>218,432</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Adjacent to Fairview Mall</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.346644,43.779026</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Flemingdon Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Flemingdon Park<br>
+<b>description:</b> Address: 29 St. Dennis Dr., Toronto, ON, M3C 3J3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB045<br>
+<b>Neighbourhood:</b> Flemingdon Park<br>
+<b>Opened:</b> 1981<br>
+<b>Built:</b> 1981<br>
+<b>Collection size:</b> 48,177<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Flemingdon Park</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1981</value>
+				</Data>
+				<Data name='Built'>
+					<value>1981</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>48,177</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.331756,43.717811</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Forest Hill</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Forest Hill<br>
+<b>description:</b> Address: 700 Eglinton Ave. West, Toronto, ON, M5N 1B9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB046<br>
+<b>Neighbourhood:</b> Forest Hill<br>
+<b>Opened:</b> 1955<br>
+<b>Built:</b> 1962<br>
+<b>Collection size:</b> 56,398<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Forest Hill</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1955</value>
+				</Data>
+				<Data name='Built'>
+					<value>1962</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>56,398</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.42057,43.702367</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Fort York</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Fort York<br>
+<b>description:</b> Address: 190 Fort York Boulevard, Toronto, ON M5V 0E7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB140<br>
+<b>Neighbourhood:</b> CityPlace<br>
+<b>Opened:</b> 2014<br>
+<b>Built:</b> 2013<br>
+<b>Collection size:</b> -<br>
+<b>Notes:</b> Newest branch in system
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>CityPlace</value>
+				</Data>
+				<Data name='Opened'>
+					<value>2014</value>
+				</Data>
+				<Data name='Built'>
+					<value>2013</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>-</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Newest branch in system</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.40033,43.63932</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Fort York/Bathurst</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Fort York/Bathurst<br>
+<b>description:</b> Address: Fort York Blvd &amp; Bathurst St, Toronto, ON <br>Link: http://www.torontopubliclibrary.ca/renovations/fort-york-bathurst-branch.jsp<br>
+<b>Neighbourhood:</b> <br>
+<b>Opened:</b> <br>
+<b>Built:</b> <br>
+<b>Collection size:</b> <br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value></value>
+				</Data>
+				<Data name='Opened'>
+					<value></value>
+				</Data>
+				<Data name='Built'>
+					<value></value>
+				</Data>
+				<Data name='Collection size'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.40062,43.63885</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Gerrard/Ashdale</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Gerrard/Ashdale<br>
+<b>description:</b> Address: 1432 Gerrard Street East, Toronto, ON, M4L 1Z6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB047<br>
+<b>Neighbourhood:</b> Little India<br>
+<b>Opened:</b> 1924<br>
+<b>Built:</b> 1924<br>
+<b>Collection size:</b> 52,172<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Little India</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1924</value>
+				</Data>
+				<Data name='Built'>
+					<value>1924</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>52,172</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.322126,43.672463</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Goldhawk Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Goldhawk Park<br>
+<b>description:</b> Address: 295 Alton Towers Circle, Toronto, ON, M1V 4P1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB048<br>
+<b>Neighbourhood:</b> Milliken<br>
+<b>Opened:</b> 1992<br>
+<b>Built:</b> 1992<br>
+<b>Collection size:</b> 58,182<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Milliken</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1992</value>
+				</Data>
+				<Data name='Built'>
+					<value>1992</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>58,182</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.277993,43.823974</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Guildwood</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Guildwood<br>
+<b>description:</b> Address: 123 Guildwood Parkway, Guildwood Plaza, Toronto, ON, M1E 4V2<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB139<br>
+<b>Neighbourhood:</b> Guildwood<br>
+<b>Opened:</b> 1974<br>
+<b>Built:</b> 1974<br>
+<b>Collection size:</b> 30,034<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Guildwood</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1974</value>
+				</Data>
+				<Data name='Built'>
+					<value>1974</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>30,034</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.199889,43.74667</coordinates></Point></Placemark>
+		<Placemark>
+			<name>High Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> High Park<br>
+<b>description:</b> Address: 228 Roncesvalles Ave., Toronto, ON, M6R 2L7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB049<br>
+<b>Neighbourhood:</b> Roncesvalles<br>
+<b>Opened:</b> 1916<br>
+<b>Built:</b> 1916<br>
+<b>Collection size:</b> 55,794<br>
+<b>Notes:</b> Carnegie library
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Roncesvalles</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1916</value>
+				</Data>
+				<Data name='Built'>
+					<value>1916</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>55,794</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Carnegie library</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.448985,43.645204</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Highland Creek</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Highland Creek<br>
+<b>description:</b> Address: 3550 Ellesmere Road, Toronto, ON, M1C 3Z2<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB050<br>
+<b>Neighbourhood:</b> Highland Creek<br>
+<b>Opened:</b> 1889<br>
+<b>Built:</b> 1994<br>
+<b>Collection size:</b> 45,712<br>
+<b>Notes:</b> Founded as the Highland Creek Mechanics' Institute
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Highland Creek</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1889</value>
+				</Data>
+				<Data name='Built'>
+					<value>1994</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>45,712</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Founded as the Highland Creek Mechanics' Institute</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.175207,43.789959</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Hillcrest</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Hillcrest<br>
+<b>description:</b> Address: 5801 Leslie Street, Toronto, ON, M2H 1J8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB051<br>
+<b>Neighbourhood:</b> Hillcrest Village<br>
+<b>Opened:</b> 1975<br>
+<b>Built:</b> 1975<br>
+<b>Collection size:</b> 48,104<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Hillcrest Village</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1975</value>
+				</Data>
+				<Data name='Built'>
+					<value>1975</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>48,104</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.369044,43.797026</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Humber Bay</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Humber Bay<br>
+<b>description:</b> Address: 200 Park Lawn Road, Toronto, ON, M8Y 3J1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB052<br>
+<b>Neighbourhood:</b> Humber Bay<br>
+<b>Opened:</b> 1925<br>
+<b>Built:</b> 1951<br>
+<b>Collection size:</b> 29,517<br>
+<b>Notes:</b> Etobicoke Public Library headquarters 1951-1955
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Humber Bay</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1925</value>
+				</Data>
+				<Data name='Built'>
+					<value>1951</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>29,517</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Etobicoke Public Library headquarters 1951-1955</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.491193,43.629959</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Humber Summit</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Humber Summit<br>
+<b>description:</b> Address: 2990 Islington Ave., Toronto, ON, M9L 2K6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB053<br>
+<b>Neighbourhood:</b> Humber Summit<br>
+<b>Opened:</b> 1974<br>
+<b>Built:</b> 1974<br>
+<b>Collection size:</b> 24,225<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Humber Summit</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1974</value>
+				</Data>
+				<Data name='Built'>
+					<value>1974</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>24,225</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.571519,43.758981</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Humberwood</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Humberwood<br>
+<b>description:</b> Address: 850 Humberwood Blvd., Toronto, ON, M9W 7A6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB054<br>
+<b>Neighbourhood:</b> Humberwood<br>
+<b>Opened:</b> 1996<br>
+<b>Built:</b> 1996<br>
+<b>Collection size:</b> 39,652<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Humberwood</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1996</value>
+				</Data>
+				<Data name='Built'>
+					<value>1996</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>39,652</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.619163,43.728996</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Jane/Dundas</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Jane/Dundas<br>
+<b>description:</b> Address: 620 Jane Street, Toronto, ON, M6S 4A6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB055<br>
+<b>Neighbourhood:</b> Runnymede<br>
+<b>Opened:</b> 1951<br>
+<b>Built:</b> 1975<br>
+<b>Collection size:</b> 46,429<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Runnymede</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1951</value>
+				</Data>
+				<Data name='Built'>
+					<value>1975</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>46,429</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.491415,43.66547</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Jane/Sheppard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Jane/Sheppard<br>
+<b>description:</b> Address: 1906 Sheppard Ave West, Toronto, ON, M3L 1Y7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB056<br>
+<b>Neighbourhood:</b> Downsview<br>
+<b>Opened:</b> 1989<br>
+<b>Built:</b> 2009<br>
+<b>Collection size:</b> 31,668<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Downsview</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1989</value>
+				</Data>
+				<Data name='Built'>
+					<value>2009</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>31,668</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.51005,43.73988</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Jones</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Jones<br>
+<b>description:</b> Address: 118 Jones Ave., Toronto, ON, M4M 2Z9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB057<br>
+<b>Neighbourhood:</b> Leslieville<br>
+<b>Opened:</b> 1962<br>
+<b>Built:</b> 1962<br>
+<b>Collection size:</b> 33,290<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Leslieville</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1962</value>
+				</Data>
+				<Data name='Built'>
+					<value>1962</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>33,290</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.334496,43.665952</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Kennedy/Eglinton</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Kennedy/Eglinton<br>
+<b>description:</b> Address: 2380 Eglinton Ave. East, Liberty Square Plaza, Toronto, ON, M1K 2P3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB138<br>
+<b>Neighbourhood:</b> Ionview<br>
+<b>Opened:</b> 1988<br>
+<b>Built:</b> 1988<br>
+<b>Collection size:</b> 34,331<br>
+<b>Notes:</b> In Liberty Square Shopping Plaza
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Ionview</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1988</value>
+				</Data>
+				<Data name='Built'>
+					<value>1988</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>34,331</value>
+				</Data>
+				<Data name='Notes'>
+					<value>In Liberty Square Shopping Plaza</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.270496,43.732159</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Leaside</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Leaside<br>
+<b>description:</b> Address: 165 McRae Dr., Toronto, ON, M4G 1S8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB059<br>
+<b>Neighbourhood:</b> Leaside<br>
+<b>Opened:</b> 1944<br>
+<b>Built:</b> 1950<br>
+<b>Collection size:</b> 60,607<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Leaside</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1944</value>
+				</Data>
+				<Data name='Built'>
+					<value>1950</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>60,607</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.367563,43.706493</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Lillian H. Smith</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Lillian H. Smith<br>
+<b>description:</b> Address: 239 College Street, Toronto, ON, M5T 1R5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB011<br>
+<b>Neighbourhood:</b> Grange Park<br>
+<b>Opened:</b> 1922<br>
+<b>Built:</b> 1995<br>
+<b>Collection size:</b> 122,412<br>
+<b>Notes:</b> Originally the Boys &amp; Girls House. Focus on children&#39;s literature. Named after Boys &amp; Girls House founder Lillian H. Smith
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Grange Park</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1922</value>
+				</Data>
+				<Data name='Built'>
+					<value>1995</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>122,412</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Originally the Boys &amp; Girls House. Focus on children's literature. Named after Boys &amp; Girls House founder Lillian H. Smith</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.3984,43.6581</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Locke</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Locke<br>
+<b>description:</b> Address: 3083 Yonge Street, Toronto, ON, M4N 2K7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB060<br>
+<b>Neighbourhood:</b> Lawrence Park<br>
+<b>Opened:</b> 1949<br>
+<b>Built:</b> 1949<br>
+<b>Collection size:</b> 70,804<br>
+<b>Notes:</b> Named after chief librarian George Locke
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Lawrence Park</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1949</value>
+				</Data>
+				<Data name='Built'>
+					<value>1949</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>70,804</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Named after chief librarian George Locke</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.401815,43.724878</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Long Branch</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Long Branch<br>
+<b>description:</b> Address: 3500 Lake Shore Blvd. West, Toronto, ON, M8W 1N6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB061<br>
+<b>Neighbourhood:</b> Long Branch<br>
+<b>Opened:</b> 1944<br>
+<b>Built:</b> 1954<br>
+<b>Collection size:</b> 34,305<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Long Branch</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1944</value>
+				</Data>
+				<Data name='Built'>
+					<value>1954</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>34,305</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.531504,43.595263</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Main Street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Main Street<br>
+<b>description:</b> Address: 137 Main Street, Toronto, ON, M4E 2V9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB062<br>
+<b>Neighbourhood:</b> Upper Beaches<br>
+<b>Opened:</b> 1903<br>
+<b>Built:</b> 1921<br>
+<b>Collection size:</b> 44,279<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Upper Beaches</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1903</value>
+				</Data>
+				<Data name='Built'>
+					<value>1921</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>44,279</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.299578,43.683359</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Malvern</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Malvern<br>
+<b>description:</b> Address: 30 Sewells Road, Toronto, ON, M1B 3G5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB012<br>
+<b>Neighbourhood:</b> Malvern<br>
+<b>Opened:</b> 1982<br>
+<b>Built:</b> 1982<br>
+<b>Collection size:</b> 149,256<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Malvern</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1982</value>
+				</Data>
+				<Data name='Built'>
+					<value>1982</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>149,256</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.216067,43.808315</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Maria A. Shchuka</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Maria A. Shchuka<br>
+<b>description:</b> Address: 1745 Eglinton Avenue W, Toronto, ON, M6E 2H4<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB013<br>
+<b>Neighbourhood:</b> Fairbank<br>
+<b>Opened:</b> 1951<br>
+<b>Built:</b> 1951<br>
+<b>Collection size:</b> 106,228<br>
+<b>Notes:</b> Named after Maria A. Shchuka, York Head Librarian from 1979 to 1996
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Fairbank</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1951</value>
+				</Data>
+				<Data name='Built'>
+					<value>1951</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>106,228</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Named after Maria A. Shchuka, York Head Librarian from 1979 to 1996</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.447193,43.69613</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Maryvale</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Maryvale<br>
+<b>description:</b> Address: 85 Ellesmere Road, Unit 16, Parkway Mall, Toronto, ON, M1R 4B9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB063<br>
+<b>Neighbourhood:</b> Maryvale<br>
+<b>Opened:</b> 1982<br>
+<b>Built:</b> 1982<br>
+<b>Collection size:</b> 52,793<br>
+<b>Notes:</b> At Parkway Mall
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Maryvale</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1982</value>
+				</Data>
+				<Data name='Built'>
+					<value>1982</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>52,793</value>
+				</Data>
+				<Data name='Notes'>
+					<value>At Parkway Mall</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.311711,43.757263</coordinates></Point></Placemark>
+		<Placemark>
+			<name>McGregor Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> McGregor Park<br>
+<b>description:</b> Address: 2219 Lawrence Ave. East, Toronto, ON, M1P 2P5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB064<br>
+<b>Neighbourhood:</b> Dorset Park<br>
+<b>Opened:</b> 1960<br>
+<b>Built:</b> 2004<br>
+<b>Collection size:</b> 43,994<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Dorset Park</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1960</value>
+				</Data>
+				<Data name='Built'>
+					<value>2004</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>43,994</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.280719,43.747707</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Mimico Centennial</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Mimico Centennial<br>
+<b>description:</b> Address: 47 Station Road, Toronto, ON, M8V 2R1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB065<br>
+<b>Neighbourhood:</b> Mimico<br>
+<b>Opened:</b> 1915<br>
+<b>Built:</b> 1966<br>
+<b>Collection size:</b> 48,591<br>
+<b>Notes:</b> Original was a Carnegie library, but was demolished in 1966
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Mimico</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1915</value>
+				</Data>
+				<Data name='Built'>
+					<value>1966</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>48,591</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Original was a Carnegie library, but was demolished in 1966</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.493904,43.614907</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Morningside</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Morningside<br>
+<b>description:</b> Address: 4279 Lawrence Ave. East, Toronto, ON, M1E 2S8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB066<br>
+<b>Neighbourhood:</b> West Hill, Toronto<br>
+<b>Opened:</b> 1968<br>
+<b>Built:</b> 2006<br>
+<b>Collection size:</b> 47,530<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>West Hill, Toronto</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1968</value>
+				</Data>
+				<Data name='Built'>
+					<value>2006</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>47,530</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.178541,43.769885</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Mount Dennis</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Mount Dennis<br>
+<b>description:</b> Address: 1123 Weston Road, Toronto, ON, M6N 3S3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB067<br>
+<b>Neighbourhood:</b> Mount Dennis<br>
+<b>Opened:</b> 1923<br>
+<b>Built:</b> 1951<br>
+<b>Collection size:</b> 46,982<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Mount Dennis</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1923</value>
+				</Data>
+				<Data name='Built'>
+					<value>1951</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>46,982</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.488259,43.686581</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Mount Pleasant</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Mount Pleasant<br>
+<b>description:</b> Address: 599 Mt. Pleasant Road, Toronto, ON, M4S 2M5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB068<br>
+<b>Neighbourhood:</b> Davisville Village<br>
+<b>Opened:</b> 1992<br>
+<b>Built:</b> 1992<br>
+<b>Collection size:</b> 19,654<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Davisville Village</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1992</value>
+				</Data>
+				<Data name='Built'>
+					<value>1992</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>19,654</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.388126,43.7039</coordinates></Point></Placemark>
+		<Placemark>
+			<name>New Toronto</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> New Toronto<br>
+<b>description:</b> Address: 110 Eleventh Street, Toronto, ON, M8V 3G5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB069<br>
+<b>Neighbourhood:</b> New Toronto<br>
+<b>Opened:</b> 1921<br>
+<b>Built:</b> 1994<br>
+<b>Collection size:</b> 40,427<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>New Toronto</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1921</value>
+				</Data>
+				<Data name='Built'>
+					<value>1994</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>40,427</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.509741,43.599085</coordinates></Point></Placemark>
+		<Placemark>
+			<name>North York Central Library</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> North York Central Library<br>
+<b>description:</b> Address: 5120 Yonge Street, Toronto, ON, M2N 5N9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB01<br>
+<b>Neighbourhood:</b> North York Centre<br>
+<b>Opened:</b> 1959<br>
+<b>Built:</b> 1987<br>
+<b>Collection size:</b> 542,218<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>North York Centre</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1959</value>
+				</Data>
+				<Data name='Built'>
+					<value>1987</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>542,218</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.414244,43.768078</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Northern District</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Northern District<br>
+<b>description:</b> Address: 40 Orchard View Blvd., Toronto, ON, M4R 1B9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB014<br>
+<b>Neighbourhood:</b> North Toronto<br>
+<b>Opened:</b> 1909<br>
+<b>Built:</b> 1975<br>
+<b>Collection size:</b> 177,153<br>
+<b>Notes:</b> Re-opened after renovation in February 2011
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>North Toronto</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1909</value>
+				</Data>
+				<Data name='Built'>
+					<value>1975</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>177,153</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Re-opened after renovation in February 2011</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.399874,43.708241</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Northern Elms</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Northern Elms<br>
+<b>description:</b> Address: 123B Rexdale Blvd., Unit 5, Toronto, ON, M9W 1P1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB070<br>
+<b>Neighbourhood:</b> Rexdale<br>
+<b>Opened:</b> 1991<br>
+<b>Built:</b> 2005<br>
+<b>Collection size:</b> 24,983<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Rexdale</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1991</value>
+				</Data>
+				<Data name='Built'>
+					<value>2005</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>24,983</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.565548,43.71133</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Oakwood Village Library and Arts Centre</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Oakwood Village Library and Arts Centre<br>
+<b>description:</b> Address: 341 Oakwood Ave., Toronto, ON, M6E 2W1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB071<br>
+<b>Neighbourhood:</b> <br>
+<b>Opened:</b> <br>
+<b>Built:</b> <br>
+<b>Collection size:</b> <br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value></value>
+				</Data>
+				<Data name='Opened'>
+					<value></value>
+				</Data>
+				<Data name='Built'>
+					<value></value>
+				</Data>
+				<Data name='Collection size'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.438111,43.686544</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Palmerston</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Palmerston<br>
+<b>description:</b> Address: 560 Palmerston Ave., Toronto, ON, M6G 2P7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB072<br>
+<b>Neighbourhood:</b> Seaton Village<br>
+<b>Opened:</b> 1971<br>
+<b>Built:</b> 1971<br>
+<b>Collection size:</b> 39,802<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Seaton Village</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1971</value>
+				</Data>
+				<Data name='Built'>
+					<value>1971</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>39,802</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.414052,43.665093</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Pape/Danforth</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Pape/Danforth<br>
+<b>description:</b> Address: 701 Pape Ave., Toronto, ON, M4K 3S6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB015<br>
+<b>Neighbourhood:</b> The Danforth<br>
+<b>Opened:</b> 1929<br>
+<b>Built:</b> 1929<br>
+<b>Collection size:</b> 64,490<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>The Danforth</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1929</value>
+				</Data>
+				<Data name='Built'>
+					<value>1929</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>64,490</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.34457,43.678559</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Parkdale</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Parkdale<br>
+<b>description:</b> Address: 1303 Queen Street West, Toronto, ON, M6K 1L6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB073<br>
+<b>Neighbourhood:</b> Parkdale, Toronto<br>
+<b>Opened:</b> 1881<br>
+<b>Built:</b> 1964<br>
+<b>Collection size:</b> 74,065<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Parkdale, Toronto</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1881</value>
+				</Data>
+				<Data name='Built'>
+					<value>1964</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>74,065</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.432659,43.641174</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Parliament Street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Parliament Street<br>
+<b>description:</b> Address: 269 Gerrard Street East, Toronto, ON, M5A 2G3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB074<br>
+<b>Neighbourhood:</b> <br>
+<b>Opened:</b> <br>
+<b>Built:</b> <br>
+<b>Collection size:</b> <br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value></value>
+				</Data>
+				<Data name='Opened'>
+					<value></value>
+				</Data>
+				<Data name='Built'>
+					<value></value>
+				</Data>
+				<Data name='Collection size'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.3678,43.661804</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Perth/Dupont</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Perth/Dupont<br>
+<b>description:</b> Address: 1589 Dupont Street, Toronto, ON, M6P 3S5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB075<br>
+<b>Neighbourhood:</b> West Junction Triangle<br>
+<b>Opened:</b> 1977<br>
+<b>Built:</b> 1983<br>
+<b>Collection size:</b> 23,003<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>West Junction Triangle</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1977</value>
+				</Data>
+				<Data name='Built'>
+					<value>1983</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>23,003</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.45383,43.665033</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Pleasant View</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Pleasant View<br>
+<b>description:</b> Address: 575 Van Horne Ave., Toronto, ON, M2J 4S8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB076<br>
+<b>Neighbourhood:</b> Pleasant View<br>
+<b>Opened:</b> 1975<br>
+<b>Built:</b> 1975<br>
+<b>Collection size:</b> 40,413<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Pleasant View</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1975</value>
+				</Data>
+				<Data name='Built'>
+					<value>1975</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>40,413</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.33543,43.787559</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Port Union</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Port Union<br>
+<b>description:</b> Address: 5450 Lawrence Ave. East, Toronto, ON, M1C 3B2<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB077<br>
+<b>Neighbourhood:</b> Port Union<br>
+<b>Opened:</b> 1974<br>
+<b>Built:</b> 1984<br>
+<b>Collection size:</b> 41,474<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Port Union</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1974</value>
+				</Data>
+				<Data name='Built'>
+					<value>1984</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>41,474</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.140289,43.779478</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Queen/Saulter</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Queen/Saulter<br>
+<b>description:</b> Address: 765 Queen Street East, Toronto, ON, M4M 1H3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB078<br>
+<b>Neighbourhood:</b> Riverside<br>
+<b>Opened:</b> 1979<br>
+<b>Built:</b> 1980<br>
+<b>Collection size:</b> 19,523<br>
+<b>Notes:</b> In the Ralph Thornton Community Centre
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Riverside</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1979</value>
+				</Data>
+				<Data name='Built'>
+					<value>1980</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>19,523</value>
+				</Data>
+				<Data name='Notes'>
+					<value>In the Ralph Thornton Community Centre</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.347593,43.659144</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Rexdale</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Rexdale<br>
+<b>description:</b> Address: 2243 Kipling Avenue, Toronto, ON, M9W 4L5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB079<br>
+<b>Neighbourhood:</b> Rexdale<br>
+<b>Opened:</b> 1959<br>
+<b>Built:</b> 1959<br>
+<b>Collection size:</b> 35,431<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Rexdale</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1959</value>
+				</Data>
+				<Data name='Built'>
+					<value>1959</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>35,431</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.573207,43.72613</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Richview</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Richview<br>
+<b>description:</b> Address: 1806 Islington Ave., Toronto, ON, M9P 3N3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB016<br>
+<b>Neighbourhood:</b> Richview<br>
+<b>Opened:</b> 1966<br>
+<b>Built:</b> 1966<br>
+<b>Collection size:</b> 198,928<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Richview</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1966</value>
+				</Data>
+				<Data name='Built'>
+					<value>1966</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>198,928</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.541119,43.683404</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Riverdale</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Riverdale<br>
+<b>description:</b> Address: 370 Broadview Ave., Toronto, ON, M4K 2M8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB080<br>
+<b>Neighbourhood:</b> Riverdale<br>
+<b>Opened:</b> 1888<br>
+<b>Built:</b> 1910<br>
+<b>Collection size:</b> 68,221<br>
+<b>Notes:</b> Carnegie library
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Riverdale</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1888</value>
+				</Data>
+				<Data name='Built'>
+					<value>1910</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>68,221</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Carnegie library</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.353163,43.665759</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Runnymede</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Runnymede<br>
+<b>description:</b> Address: 2178 Bloor Street West, Toronto, ON, M6S 1M8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB081<br>
+<b>Neighbourhood:</b> Bloor West Village<br>
+<b>Opened:</b> 1904<br>
+<b>Built:</b> 1930<br>
+<b>Collection size:</b> 73,075<br>
+<b>Notes:</b> Designed by John M. Lyle
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Bloor West Village</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1904</value>
+				</Data>
+				<Data name='Built'>
+					<value>1930</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>73,075</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Designed by John M. Lyle</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.473844,43.651856</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Walter Stewart</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> S. Walter Stewart<br>
+<b>description:</b> Address: 170 Memorial Park Ave., Toronto, ON, M4J 2K5<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB017<br>
+<b>Neighbourhood:</b> Old East York<br>
+<b>Opened:</b> 1950<br>
+<b>Built:</b> 1960<br>
+<b>Collection size:</b> 97,466<br>
+<b>Notes:</b> Named after S. Walter Stewart, first chair of the East York library Board
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Old East York</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1950</value>
+				</Data>
+				<Data name='Built'>
+					<value>1960</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>97,466</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Named after S. Walter Stewart, first chair of the East York library Board</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.329696,43.692115</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Sanderson</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Sanderson<br>
+<b>description:</b> Address: 327 Bathurst Street, Toronto, ON, M5T 1J1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB085<br>
+<b>Neighbourhood:</b> Alexandra Park<br>
+<b>Opened:</b> 1968<br>
+<b>Built:</b> 1968<br>
+<b>Collection size:</b> 64,914<br>
+<b>Notes:</b> Named in honour of chief librarian Charles Sanderson
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Alexandra Park</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1968</value>
+				</Data>
+				<Data name='Built'>
+					<value>1968</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>64,914</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Named in honour of chief librarian Charles Sanderson</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.405519,43.652085</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Scarborough Centre</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Scarborough Centre<br>
+<b>description:</b> Address: 140 Borough Dr., Toronto, ON, M1T 3W6<br>Link: http://www.torontopubliclibrary.ca/renovations/scarborough-centre-branch.jsp<br>
+<b>Neighbourhood:</b> Scarborough City Centre<br>
+<b>Opened:</b> 2014 (expected)<br>
+<b>Built:</b> 2014 (expected)<br>
+<b>Collection size:</b> 50,000<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Scarborough City Centre</value>
+				</Data>
+				<Data name='Opened'>
+					<value>2014 (expected)</value>
+				</Data>
+				<Data name='Built'>
+					<value>2014 (expected)</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>50,000</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.257475,43.772067</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Scarborough Civic Centre</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Scarborough Civic Centre<br>
+<b>description:</b> Address: 156 Borough Dr., Toronto, ON, M1P 4N7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMLIB144<br>
+<b>Neighbourhood:</b> <br>
+<b>Opened:</b> <br>
+<b>Built:</b> <br>
+<b>Collection size:</b> <br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value></value>
+				</Data>
+				<Data name='Opened'>
+					<value></value>
+				</Data>
+				<Data name='Built'>
+					<value></value>
+				</Data>
+				<Data name='Collection size'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.256764,43.772096</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Spadina Road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Spadina Road<br>
+<b>description:</b> Address: 10 Spadina Road, Toronto, ON, M5R 2S7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB086<br>
+<b>Neighbourhood:</b> The Annex<br>
+<b>Opened:</b> 1977<br>
+<b>Built:</b> 1977<br>
+<b>Collection size:</b> 42,573<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>The Annex</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1977</value>
+				</Data>
+				<Data name='Built'>
+					<value>1977</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>42,573</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.404378,43.667159</coordinates></Point></Placemark>
+		<Placemark>
+			<name>St. Clair/Silverthorn</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> St. Clair/Silverthorn<br>
+<b>description:</b> Address: 1748 St. Clair Ave. West, Toronto, ON, M6N 1J3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB082<br>
+<b>Neighbourhood:</b> The Junction<br>
+<b>Opened:</b> 1981<br>
+<b>Built:</b> 1981<br>
+<b>Collection size:</b> 21,007<br>
+<b>Notes:</b> Was featured in the opening credits of the former TVO kids show; Bookmice
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>The Junction</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1981</value>
+				</Data>
+				<Data name='Built'>
+					<value>1981</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>21,007</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Was featured in the opening credits of the former TVO kids show; Bookmice</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.460585,43.674263</coordinates></Point></Placemark>
+		<Placemark>
+			<name>St. James Town</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> St. James Town<br>
+<b>description:</b> Address: 495 Sherbourne Street, Toronto, ON, M4X 1K7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB083<br>
+<b>Neighbourhood:</b> St. James Town<br>
+<b>Opened:</b> 2004<br>
+<b>Built:</b> 2004<br>
+<b>Collection size:</b> 59,802<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>St. James Town</value>
+				</Data>
+				<Data name='Opened'>
+					<value>2004</value>
+				</Data>
+				<Data name='Built'>
+					<value>2004</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>59,802</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.374467,43.667263</coordinates></Point></Placemark>
+		<Placemark>
+			<name>St. Lawrence</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> St. Lawrence<br>
+<b>description:</b> Address: 171 Front Street East, Toronto, ON, M5A 4H3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB084<br>
+<b>Neighbourhood:</b> St. Lawrence<br>
+<b>Opened:</b> 1982<br>
+<b>Built:</b> 1982<br>
+<b>Collection size:</b> 29,617<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>St. Lawrence</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1982</value>
+				</Data>
+				<Data name='Built'>
+					<value>1982</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>29,617</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.368496,43.649981</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Steeles</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Steeles<br>
+<b>description:</b> Address: Bamburgh Gardens Shopping Plaza, C107-375 Bamburgh Circle, Toronto, ON, M1W 3Y1<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB087<br>
+<b>Neighbourhood:</b> Steeles<br>
+<b>Opened:</b> 1987<br>
+<b>Built:</b> 1987<br>
+<b>Collection size:</b> 48,086<br>
+<b>Notes:</b> At Bamburgh Gardens Plaza
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Steeles</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1987</value>
+				</Data>
+				<Data name='Built'>
+					<value>1987</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>48,086</value>
+				</Data>
+				<Data name='Notes'>
+					<value>At Bamburgh Gardens Plaza</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.322304,43.815381</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Swansea Memorial</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Swansea Memorial<br>
+<b>description:</b> Address: 95 Lavinia Ave., Toronto, ON, M6S 3H9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB088<br>
+<b>Neighbourhood:</b> Swansea<br>
+<b>Opened:</b> 1923<br>
+<b>Built:</b> 1959<br>
+<b>Collection size:</b> 10,049<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Swansea</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1923</value>
+				</Data>
+				<Data name='Built'>
+					<value>1959</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>10,049</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.478022,43.64793</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Taylor Memorial</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Taylor Memorial<br>
+<b>description:</b> Address: 1440 Kingston Road, Toronto, ON, M1N 1R3<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB089<br>
+<b>Neighbourhood:</b> Birch Cliff<br>
+<b>Opened:</b> 1962<br>
+<b>Built:</b> 1985<br>
+<b>Collection size:</b> 29,687<br>
+<b>Notes:</b> Named after Florence Nightingale Taylor, wife of John Taylor who donated his home for the original library building
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Birch Cliff</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1962</value>
+				</Data>
+				<Data name='Built'>
+					<value>1985</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>29,687</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Named after Florence Nightingale Taylor, wife of John Taylor who donated his home for the original library building</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.271252,43.687781</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Thorncliffe</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Thorncliffe<br>
+<b>description:</b> Address: 48 Thorncliffe Park Dr., Toronto, ON, M4H 1J7<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB090<br>
+<b>Neighbourhood:</b> Thorncliffe Park<br>
+<b>Opened:</b> 1961<br>
+<b>Built:</b> 1970<br>
+<b>Collection size:</b> 41,752<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Thorncliffe Park</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1961</value>
+				</Data>
+				<Data name='Built'>
+					<value>1970</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>41,752</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.342644,43.702907</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Todmorden Room</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Todmorden Room<br>
+<b>description:</b> Address: 1081 1/2 Pape Ave (at Torrens), Toronto, ON, M4K 3W6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB091<br>
+<b>Neighbourhood:</b> Pape Village<br>
+<b>Opened:</b> 1961<br>
+<b>Built:</b> 1961<br>
+<b>Collection size:</b> 8,874<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Pape Village</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1961</value>
+				</Data>
+				<Data name='Built'>
+					<value>1961</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>8,874</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.349326,43.691626</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Toronto Reference Library</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Toronto Reference Library<br>
+<b>description:</b> Address: 789 Yonge Street, Toronto, ON, M4W 2G8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB018<br>
+<b>Neighbourhood:</b> Yorkville<br>
+<b>Opened:</b> 1977<br>
+<b>Built:</b> 1977<br>
+<b>Collection size:</b> 1,653,665<br>
+<b>Notes:</b> The largest public reference library in Canada
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Yorkville</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1977</value>
+				</Data>
+				<Data name='Built'>
+					<value>1977</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>1,653,665</value>
+				</Data>
+				<Data name='Notes'>
+					<value>The largest public reference library in Canada</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.386763,43.671737</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Victoria Village</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Victoria Village<br>
+<b>description:</b> Address: 184 Sloane Ave., Toronto, ON, M4A 2C4<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB092<br>
+<b>Neighbourhood:</b> Victoria Park Village<br>
+<b>Opened:</b> 1967<br>
+<b>Built:</b> 1967<br>
+<b>Collection size:</b> 30,504<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Victoria Park Village</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1967</value>
+				</Data>
+				<Data name='Built'>
+					<value>1967</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>30,504</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.312911,43.736011</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Weston</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Weston<br>
+<b>description:</b> Address: 2 King Street, Toronto, ON, M9N 1K9<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB093<br>
+<b>Neighbourhood:</b> Weston<br>
+<b>Opened:</b> 1858<br>
+<b>Built:</b> 1914<br>
+<b>Collection size:</b> 43,686<br>
+<b>Notes:</b> Carnegie library
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Weston</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1858</value>
+				</Data>
+				<Data name='Built'>
+					<value>1914</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>43,686</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Carnegie library</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.520585,43.701796</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Woodside Square</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Woodside Square<br>
+<b>description:</b> Address: Woodside Square Mall, 1571 Sandhurst Circle, Toronto, ON, M1V 1V2<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB094<br>
+<b>Neighbourhood:</b> Agincourt<br>
+<b>Opened:</b> 1977<br>
+<b>Built:</b> 1977<br>
+<b>Collection size:</b> 66,076<br>
+<b>Notes:</b> At Woodside Square Mall
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Agincourt</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1977</value>
+				</Data>
+				<Data name='Built'>
+					<value>1977</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>66,076</value>
+				</Data>
+				<Data name='Notes'>
+					<value>At Woodside Square Mall</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.269548,43.809463</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Woodview Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Woodview Park<br>
+<b>description:</b> Address: 16 Bradstock Road, Toronto, ON, M9M 1M8<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB095<br>
+<b>Neighbourhood:</b> Emery<br>
+<b>Opened:</b> 1964<br>
+<b>Built:</b> 1964<br>
+<b>Collection size:</b> 23,130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Emery</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1964</value>
+				</Data>
+				<Data name='Built'>
+					<value>1964</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>23,130</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.538941,43.739722</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Wychwood</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Wychwood<br>
+<b>description:</b> Address: 1431 Bathurst Street, Toronto, ON, M5R 3J2<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB096<br>
+<b>Neighbourhood:</b> Bracondale Hill<br>
+<b>Opened:</b> 1880<br>
+<b>Built:</b> 1916<br>
+<b>Collection size:</b> 51,433<br>
+<b>Notes:</b> Carnegie library
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Bracondale Hill</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1880</value>
+				</Data>
+				<Data name='Built'>
+					<value>1916</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>51,433</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Carnegie library</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.417548,43.682181</coordinates></Point></Placemark>
+		<Placemark>
+			<name>York Woods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> York Woods<br>
+<b>description:</b> Address: 1785 Finch Ave. West, Toronto, ON, M3N 1M6<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB019<br>
+<b>Neighbourhood:</b> Jane and Finch<br>
+<b>Opened:</b> 1970<br>
+<b>Built:</b> 1970<br>
+<b>Collection size:</b> 120,199<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Jane and Finch</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1970</value>
+				</Data>
+				<Data name='Built'>
+					<value>1970</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>120,199</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.507267,43.758893</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Yorkville</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>name:</b> Yorkville<br>
+<b>description:</b> Address: 22 Yorkville Ave., Toronto, ON, M4W 1L4<br>Link: http://www.torontopubliclibrary.ca/detail.jsp?R=LIB097<br>
+<b>Neighbourhood:</b> Yorkville<br>
+<b>Opened:</b> 1884<br>
+<b>Built:</b> 1907<br>
+<b>Collection size:</b> 62,240<br>
+<b>Notes:</b> Carnegie library
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Neighbourhood'>
+					<value>Yorkville</value>
+				</Data>
+				<Data name='Opened'>
+					<value>1884</value>
+				</Data>
+				<Data name='Built'>
+					<value>1907</value>
+				</Data>
+				<Data name='Collection size'>
+					<value>62,240</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Carnegie library</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-79.388644,43.671826</coordinates></Point></Placemark>
+	</Document>
+</kml>
