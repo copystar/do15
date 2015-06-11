@@ -155,9 +155,9 @@ We are now going to create an animation of this branch openings using Cartodb.co
 
 - https://cartodb.com/
 - create account if you don't already have a CartoDB account
-- click on *Create Map*; select *Map View* at the top of the screen
-- click on the '+' or *Add Layer* option at the top of the right side menu
-- upload Merge-of-TPL-Library-Branches-and-Wikipedia.kml
+- click on *Create Map*; after the information screen, select *Connect Dataset* from the *Dataset* page
+- select and upload upload Merge-of-TPL-Library-Branches-and-Wikipedia.kml
+- click on green *Connect dataset* button at the bottom of the screen
 - select *Data View* at the top of the screen
 - under the *Built* column, mouse over the word *string*; then pull down the menu to select *number*; confirm the action
 - select *Map View* at the top of the screen
