@@ -8,7 +8,7 @@ Good question. If I gave you directions here, I would tell you we are at 51 Dock
   
 But if I wanted to describe the location as a point on a map, I might describe the same location using latitude and longitude:  43° 38' 39.2706", -79° 21' 55.4508"  You would read the above as "43 degrees, 38 minutes and 39.2706 seconds, negative 79 degrees, 21 minutes and 55.4508 seconds".
   
-While it’s interesting that we describe a place using units of time (https://en.wikipedia.org/wiki/Longitude_(book)), its also confusing and somewhat unweildy. So let's describe the same place using longitude and longitude but using decimal degrees instead of minutes and seconds. There are a number of conversion tools available online to do this : 43.644242, -79.365403  
+While it’s interesting that we describe a place using units of time (https://en.wikipedia.org/wiki/Longitude_(book)), its also confusing and somewhat unwieldy. So let's describe the same place using longitude and longitude but using decimal degrees instead of minutes and seconds. There are a number of conversion tools available online to do this : 43.644242, -79.365403  
   
 ## What if I wanted to tell people where the 102 library branches the TPL are in the city? 
 You could make a map using Google Maps of all the TPL Library branches: http://www.torontopubliclibrary.ca/hours-locations/  
