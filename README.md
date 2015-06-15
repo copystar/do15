@@ -48,7 +48,7 @@ If you get stuck, please put a post-it note on your laptop
 **Using Google Map**
 - https://www.google.com/maps/d/
 - create account if you don't already have a Gmail account
-- click on *Import Map* in top left hand menu
+- click on *Import Map* in top left hand menu (or *My Maps* -> *Create map* in some Google Maps UIs)
 - upload combined-library.data.kml
 - explore changing the map features if you would like
 
