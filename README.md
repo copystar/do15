@@ -34,7 +34,7 @@ Address: 155 Bonis Ave., Toronto, ON, M1T 3W6<br/>Link: http://www.torontopublic
 
 Notice that the point coordinates are in the format <coordinates>longitude, latitude</latitude>. Some geoformats are long, lat and others are long, lat. This makes everyone sad.   
 
-Also note that the data in the catalogue is out of date. The site provides the location of Library Branch Locations (http://www.torontopubliclibrary.ca/data/library-data.kml) and Future Library Branch Locations (http://www.torontopubliclibrary.ca/data/new-library-data.kml) but all the future branches have now opened.  
+Also note that the data in the City of Toronto Data catalogue is out of date. The site provides the location of Library Branch Locations (http://www.torontopubliclibrary.ca/data/library-data.kml) and Future Library Branch Locations (http://www.torontopubliclibrary.ca/data/new-library-data.kml) but all the future branches have now opened.  
 
 I have already combined these files together into a new file called:   
 https://github.com/copystar/do15/blob/master/combined-library-data.kml   
@@ -170,3 +170,5 @@ We are now going to create an animation of this branch openings using Cartodb.co
  
 
 Here be dragons.
+
+This presentation is cc0. The data provided falls under the Open Government License - Toronto: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=4a37e03bb8d1e310VgnVCM10000071d60f89RCRD 
