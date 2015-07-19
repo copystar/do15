@@ -46,6 +46,7 @@ https://drive.google.com/open?id=0B5RDRo0uB7m5SWFEbkVWSmdvdHc&authuser=0
 If you get stuck, please put a post-it note on your laptop
   
 **Using Google Map**
+
 - https://www.google.com/maps/d/
 - create account if you don't already have a Gmail account
 - click on *Import Map* in top left hand menu (or *My Maps* -> *Create map* in some Google Maps UIs)
@@ -53,6 +54,7 @@ If you get stuck, please put a post-it note on your laptop
 - explore changing the map features if you would like
 
 **Using CartoDB**  
+
 - https://cartodb.com/
 - create account if you don't already have a CartoDB account
 - click on *Create Map*; select *Map View* at the top of the screen
@@ -61,6 +63,7 @@ If you get stuck, please put a post-it note on your laptop
 - explore changing the map features if you would like
    
 **Using Mapbox**
+
 - https://mapbox.com/
 - create account if you don't already have a Mapbox account
 - click on the *Data* tab at the top right hand corner of the screen; click on import
